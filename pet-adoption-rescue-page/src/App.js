@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+
+import React from "react"
+import Header from "../src/Header"
 
 function App() {
   return (
     <div >
-      Hello world
+     <Header/>
+
     </div>
   );
 }
