@@ -12,24 +12,18 @@ return (
         
     </StyledNavBar>
 )
-
-
 }
 export default NavBar;
 
 const StyledNavBar = styled.div`
-
 display: flex; 
 justify-content: flex-end;
 display: inline-block;
 float:right;
-
 `;
 
 const StyledLinks = styled.a`
   font-size: 32px;
   color: white !important;
   padding-left: 15px;
-
-
 `;
